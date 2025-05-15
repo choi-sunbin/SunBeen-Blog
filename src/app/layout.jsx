@@ -22,7 +22,7 @@ export default async function RootLayout({ children }) {
 					navbar={navbar}
 					sidebar={{ autoCollapse: true }}
 					pageMap={await getPageMap()}
-					docsRepositoryBase="https://github.com/choi-sunbin/SunBeen-Blog/tree/main/src/docs"
+					docsRepositoryBase="https://github.com/choi-sunbin/SunBeen-Blog/tree/main/"
 					footer={footer}
 				>
 					{children}
