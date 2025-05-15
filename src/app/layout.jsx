@@ -20,6 +20,7 @@ export default async function RootLayout({ children }) {
 				<Layout
 					banner={banner}
 					navbar={navbar}
+					sidebar={{ autoCollapse: true }}
 					pageMap={await getPageMap()}
 					docsRepositoryBase="https://github.com/choi-sunbin"
 					footer={footer}
