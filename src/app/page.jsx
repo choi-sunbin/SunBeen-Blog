@@ -1,3 +1,3 @@
-export default async function Page(props) {
-	return <div>Main</div>;
+export default function App() {
+	return <div>main</div>;
 }

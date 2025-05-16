@@ -14,7 +14,7 @@ const footer = <Footer>MIT {new Date().getFullYear()} © Mario Inc</Footer>;
 
 export default async function RootLayout({ children }) {
 	return (
-		<html lang="en" dir="ltr" suppressHydrationWarning>
+		<html lang="ko" dir="ltr" suppressHydrationWarning>
 			<Head>{/* 추가 <meta>나 <link> 태그 */}</Head>
 			<body>
 				<Layout
@@ -22,7 +22,7 @@ export default async function RootLayout({ children }) {
 					navbar={navbar}
 					sidebar={{ autoCollapse: true }}
 					pageMap={await getPageMap()}
-					docsRepositoryBase="https://github.com/choi-sunbin/SunBeen-Blog/tree/main/"
+					docsRepositoryBase="https://github.com/choi-sunbin/SunBeen-Blog/tree/main/src/app/docs/"
 					footer={footer}
 				>
 					{children}
